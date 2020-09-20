@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AdventurerSprite
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3e0a796f859a4a444b9b4473925a03a2, type: 3}
+    totalSpriteSurfaceArea: 201650
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: bc039c20335ce1e40a195894309f87db, type: 3}
+  - {fileID: 21300000, guid: 1ac95630cc61dba4a9a51b77149c51df, type: 3}
+  - {fileID: 21300000, guid: ce8f2730edee30e4eb20a900f92fac87, type: 3}
+  - {fileID: 21300000, guid: 12d23090d97123240a30709c3eb4b454, type: 3}
+  - {fileID: 21300000, guid: 88ac819023356784bbb1ef701e028df7, type: 3}
+  - {fileID: 21300000, guid: 79afccb05376498409bb15bdcb84ca10, type: 3}
+  - {fileID: 21300000, guid: 6d0eddd0d43f0574ca5e805e868a9e09, type: 3}
+  - {fileID: 21300000, guid: 128306f035e47d4418733ffbf6a10c89, type: 3}
+  - {fileID: 21300000, guid: 90bca3012d6fc0144ae95008ca1cbfac, type: 3}
+  - {fileID: 21300000, guid: bbeec50180e2e3649a22782c97993136, type: 3}
+  - {fileID: 21300000, guid: 7afe08d1936714d41ac52d6a30d2b449, type: 3}
+  - {fileID: 21300000, guid: 10755ed189831ba4d9d609158991bad3, type: 3}
+  - {fileID: 21300000, guid: 1a8d443205b48ac49a99a611f1aa13bd, type: 3}
+  - {fileID: 21300000, guid: cb15d842b5b1ed64cb924634652183a1, type: 3}
+  - {fileID: 21300000, guid: 4a293052175863249ac0727091be31cf, type: 3}
+  - {fileID: 21300000, guid: a0ece552d869cac40b0018df9f72418e, type: 3}
+  - {fileID: 21300000, guid: 1ec660827f3cbf74a87e2caa83b53f12, type: 3}
+  - {fileID: 21300000, guid: b0c8c292dc598974490bc72a713f9517, type: 3}
+  - {fileID: 21300000, guid: 60c1256396943324d81ac1a70a5b4e93, type: 3}
+  - {fileID: 21300000, guid: ac0dd0a36174f64409ae973f656ad24c, type: 3}
+  - {fileID: 21300000, guid: 3515e9d3c19e0b64b84657a54d19570f, type: 3}
+  - {fileID: 21300000, guid: 7432c7641d6cb624f9117ff94d19030e, type: 3}
+  - {fileID: 21300000, guid: 42b95d744b4264e44b189cc9365bf6fe, type: 3}
+  - {fileID: 21300000, guid: 15dc998456523334cb75fa338320d081, type: 3}
+  - {fileID: 21300000, guid: 0c35d4d4f5f5b5548a21c078565b86c8, type: 3}
+  - {fileID: 21300000, guid: 8febc1e4425bf3743b7482e722076489, type: 3}
+  - {fileID: 21300000, guid: 12574455e0cbce044a7ca9bf0a46ed41, type: 3}
+  - {fileID: 21300000, guid: ce2e2e65f14228c4eb6ee27edee66b25, type: 3}
+  - {fileID: 21300000, guid: 60d37075769ba204b96fa78e6994cac3, type: 3}
+  - {fileID: 21300000, guid: 336f0475995c71a4a9e9c31390a616a4, type: 3}
+  - {fileID: 21300000, guid: 3c491b8542b8d38498d85c25a48186fa, type: 3}
+  - {fileID: 21300000, guid: c106a0b5c6418984fb7fbb0beeb91ae0, type: 3}
+  - {fileID: 21300000, guid: b759afc58d363c242abf351307b42c61, type: 3}
+  - {fileID: 21300000, guid: 751acb264369b7f41800aae95160be0a, type: 3}
+  - {fileID: 21300000, guid: 86004ed6b6218e749a96f61360b1cd9b, type: 3}
+  - {fileID: 21300000, guid: ea398107249e256438b3d2e916dd2cbf, type: 3}
+  - {fileID: 21300000, guid: 0800c617499783845b8d5f2c94f01ee4, type: 3}
+  - {fileID: 21300000, guid: da383e1718d9bdf4d9ae18c0bdb7baca, type: 3}
+  - {fileID: 21300000, guid: 89638a4775d357e4f82130c0e315cc14, type: 3}
+  - {fileID: 21300000, guid: 537c3b57afd5c7b44b7c76988b6a7bc3, type: 3}
+  - {fileID: 21300000, guid: 00e3f7774ca095d4a862c2e8eb2fef3c, type: 3}
+  - {fileID: 21300000, guid: 6ac94197f8f09ea40a0eec82b0b5794d, type: 3}
+  - {fileID: 21300000, guid: 53a116a70bac16d459988b69a3a2ce30, type: 3}
+  - {fileID: 21300000, guid: 4752a1d7ae895954995faa724b28093b, type: 3}
+  - {fileID: 21300000, guid: c26c46e7f9cb7d149b77219daed5b6a7, type: 3}
+  - {fileID: 21300000, guid: e11f17f71bccc4f43bdc6033d7a26181, type: 3}
+  - {fileID: 21300000, guid: d39d98f7b6226054099986b4507f4d69, type: 3}
+  - {fileID: 21300000, guid: 37352728ad6e3694ab4f71eb1032c40c, type: 3}
+  - {fileID: 21300000, guid: 28c082387fd35ba46bd864cb94f30bac, type: 3}
+  - {fileID: 21300000, guid: e0893b3892e6a2e429c3231083890f8e, type: 3}
+  - {fileID: 21300000, guid: 08dcf45861ffbfe48a79fa5a6425a652, type: 3}
+  - {fileID: 21300000, guid: 081ee9689941a3742b12a59ed614e4e0, type: 3}
+  - {fileID: 21300000, guid: 936cca883f3c4474f8139e57c4405e2f, type: 3}
+  - {fileID: 21300000, guid: c7bf10983559e174a87451d9005130ac, type: 3}
+  - {fileID: 21300000, guid: d05a51c855ba54142abfb0bb5da325c3, type: 3}
+  - {fileID: 21300000, guid: 0662a3c81ad9f924ea45d1be05329aa1, type: 3}
+  - {fileID: 21300000, guid: b54ce8c8ba9eccd4699df5ddb5fee28e, type: 3}
+  - {fileID: 21300000, guid: 3879f8f88c79fcf4cb153168ff8e7f0b, type: 3}
+  - {fileID: 21300000, guid: a67e1af8fe06bce4eb57692cd01f4daa, type: 3}
+  - {fileID: 21300000, guid: b8c05559ef55c0d4d8d75ecf82b8b087, type: 3}
+  - {fileID: 21300000, guid: 4ee33279cac25164dbea43f3558f4677, type: 3}
+  - {fileID: 21300000, guid: a2548579e0e555d46a1a86cc374dc5ee, type: 3}
+  - {fileID: 21300000, guid: f05681b9c3af159419e610014947c365, type: 3}
+  - {fileID: 21300000, guid: fb7526b9e49b8e349a6ced15dd613178, type: 3}
+  - {fileID: 21300000, guid: 1bda42f9aa27b8343b608a971ba456b8, type: 3}
+  - {fileID: 21300000, guid: f7574df93809e7847af0a8dc4bcdc41d, type: 3}
+  - {fileID: 21300000, guid: 3708a91afc1e0764ca412dc34c04e180, type: 3}
+  - {fileID: 21300000, guid: f982312af9159cb47ab31c9a86d0e7ac, type: 3}
+  - {fileID: 21300000, guid: 7147fe3a29da83642a1bac7e9ae5dca5, type: 3}
+  - {fileID: 21300000, guid: 86df844ae9ecfc141a0258170ecabc25, type: 3}
+  - {fileID: 21300000, guid: f4c24cbad6ec59b44bdc927d0cec1f29, type: 3}
+  - {fileID: 21300000, guid: f61acfcae05c0174f8c5d1c8c0f0540f, type: 3}
+  - {fileID: 21300000, guid: f5dc070baa696b24cbda9b269439ed62, type: 3}
+  - {fileID: 21300000, guid: 5187085b0f11eeb4398af869cc85f41a, type: 3}
+  - {fileID: 21300000, guid: 83c511ab2d0c8eb4e922fea8401aa2fd, type: 3}
+  - {fileID: 21300000, guid: c33290bb95e3d964685e2559b9393b3a, type: 3}
+  - {fileID: 21300000, guid: fa672acb4110761499059da528486527, type: 3}
+  - {fileID: 21300000, guid: 0e1fa4db0319e0a46979c03d26535ac8, type: 3}
+  - {fileID: 21300000, guid: 84dc8ddb2ebdc734da47c9853d0b47c2, type: 3}
+  - {fileID: 21300000, guid: 8885d9eb706b20b429cb17ef4668f0cd, type: 3}
+  - {fileID: 21300000, guid: 08d5770c31ce9bd4c90d6ab86d1aa48b, type: 3}
+  - {fileID: 21300000, guid: 8d4d882c892a1064293f6eb490973c66, type: 3}
+  - {fileID: 21300000, guid: af7b784c4772d3d43ac871d46fc9444b, type: 3}
+  - {fileID: 21300000, guid: 0f2e2d7c56c90fb49a3c9a4de1d05896, type: 3}
+  - {fileID: 21300000, guid: a76f91ac0c10031478afced4785b4b74, type: 3}
+  - {fileID: 21300000, guid: bfbaf8bc958ed5549bdd1849c8a682f4, type: 3}
+  - {fileID: 21300000, guid: f32385ccda102fa4aa2361621af037c2, type: 3}
+  - {fileID: 21300000, guid: 8876b1dced8b6a54787d48af19b7ed97, type: 3}
+  - {fileID: 21300000, guid: a891092d4c197954cbc208c21380de80, type: 3}
+  - {fileID: 21300000, guid: 2629e13deb2d6e74ebaad76f48a9ce86, type: 3}
+  - {fileID: 21300000, guid: c558ac7d9c078c04dac628a715287d80, type: 3}
+  - {fileID: 21300000, guid: cbc4b89d9488e834eb56c9fe09f7c0c6, type: 3}
+  - {fileID: 21300000, guid: 5f2391cddb49324428d2d1d42b4202b0, type: 3}
+  - {fileID: 21300000, guid: 64fe293e004c39743a0afdc095ae82bd, type: 3}
+  - {fileID: 21300000, guid: 71ff367e7c4da85428078afa7b744cca, type: 3}
+  - {fileID: 21300000, guid: cbae348ea8b96ca4dba52c9ea26090a8, type: 3}
+  - {fileID: 21300000, guid: 5447d7ae7c3e8d34a8b660b68a4dfac5, type: 3}
+  - {fileID: 21300000, guid: e85aedae274a4244795d11e5cabc15d9, type: 3}
+  - {fileID: 21300000, guid: c7bcbbfe8ba525a428ab658fad0919de, type: 3}
+  - {fileID: 21300000, guid: 862bd31f47489b04393c205ff1a8b01d, type: 3}
+  - {fileID: 21300000, guid: 8b3b751f92bc0c040a401e5284ed0d3c, type: 3}
+  - {fileID: 21300000, guid: 19e7e61f376814545b321897a458fc8c, type: 3}
+  - {fileID: 21300000, guid: 91ffa56f3e1c05f4198bfe8b209b6948, type: 3}
+  - {fileID: 21300000, guid: 84617e6f1e1b4744081a91bbb7a9fb5c, type: 3}
+  - {fileID: 21300000, guid: 119bc88fac2c02f479424a85fdd89d9b, type: 3}
+  - {fileID: 21300000, guid: 02fa499fe7840064abcffc53dc23dfbc, type: 3}
+  - {fileID: 21300000, guid: a84bf3bf183200546bf5f765b2253bde, type: 3}
+  - {fileID: 21300000, guid: 7aff05cfbefe05b4aa8ffa6945dffc6b, type: 3}
+  - {fileID: 21300000, guid: 74ee40dfff143fd43a75da9fff4e459e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - adventurer-attack3-03
+  - adventurer-air-attack2-00
+  - adventurer-air-attack3-loop-00
+  - adventurer-swrd-drw-03
+  - adventurer-attack3-01
+  - adventurer-run-05
+  - adventurer-smrslt-02
+  - adventurer-run-01
+  - adventurer-cast-03
+  - adventurer-cast-loop-03
+  - adventurer-attack3-00
+  - adventurer-attack3-05
+  - adventurer-items-00
+  - adventurer-swrd-drw-00
+  - adventurer-idle-01
+  - adventurer-air-attack1-03
+  - adventurer-swrd-drw-01
+  - adventurer-items-02
+  - adventurer-crnr-grb-02
+  - adventurer-stand-02
+  - adventurer-idle-2-02
+  - adventurer-crnr-clmb-03
+  - adventurer-cast-00
+  - adventurer-die-04
+  - adventurer-attack2-04
+  - adventurer-crnr-grb-00
+  - adventurer-fall-01
+  - adventurer-attack2-01
+  - adventurer-die-01
+  - adventurer-fall-00
+  - adventurer-attack3-02
+  - adventurer-ladder-climb-03
+  - adventurer-air-attack1-01
+  - adventurer-crnr-grb-01
+  - adventurer-attack1-04
+  - adventurer-stand-01
+  - adventurer-crouch-02
+  - adventurer-hurt-02
+  - adventurer-items-01
+  - adventurer-wall-slide-00
+  - adventurer-crnr-clmb-01
+  - adventurer-idle-2-00
+  - adventurer-idle-2-01
+  - adventurer-slide-01
+  - adventurer-swrd-shte-01
+  - adventurer-run-02
+  - adventurer-wall-slide-01
+  - adventurer-crnr-clmb-02
+  - adventurer-smrslt-03
+  - adventurer-air-attack-3-end-00
+  - adventurer-smrslt-00
+  - adventurer-idle-02
+  - adventurer-crnr-jmp-01
+  - adventurer-attack3-04
+  - adventurer-attack1-03
+  - adventurer-die-05
+  - adventurer-die-00
+  - adventurer-hurt-01
+  - adventurer-crnr-grb-03
+  - adventurer-run-03
+  - adventurer-ladder-climb-02
+  - adventurer-air-attack3-rdy-00
+  - adventurer-idle-03
+  - adventurer-swrd-shte-03
+  - adventurer-smrslt-01
+  - adventurer-attack2-03
+  - adventurer-hurt-00
+  - adventurer-cast-loop-02
+  - adventurer-crnr-clmb-04
+  - adventurer-swrd-shte-00
+  - adventurer-crouch-03
+  - adventurer-attack1-01
+  - adventurer-attack1-00
+  - adventurer-crnr-clmb-00
+  - adventurer-jump-01
+  - adventurer-jump-02
+  - adventurer-attack2-02
+  - adventurer-jump-03
+  - adventurer-die-06
+  - adventurer-ladder-climb-00
+  - adventurer-attack1-02
+  - adventurer-air-attack2-02
+  - adventurer-swrd-drw-02
+  - adventurer-crnr-jmp-00
+  - adventurer-cast-loop-01
+  - adventurer-cast-loop-00
+  - adventurer-swrd-shte-02
+  - adventurer-air-attack3-loop-01
+  - adventurer-air-attack1-02
+  - adventurer-run-04
+  - adventurer-attack2-05
+  - adventurer-air-attack-3-end-02
+  - adventurer-cast-02
+  - adventurer-stand-00
+  - adventurer-attack2-00
+  - adventurer-crouch-01
+  - adventurer-run-00
+  - adventurer-die-02
+  - adventurer-air-attack2-01
+  - adventurer-die-03
+  - adventurer-slide-00
+  - adventurer-ladder-climb-01
+  - adventurer-air-attack-3-end-01
+  - adventurer-cast-01
+  - adventurer-idle-2-03
+  - adventurer-crouch-00
+  - adventurer-air-attack1-00
+  - adventurer-idle-00
+  - adventurer-jump-00
+  m_Tag: AdventurerSprite
+  m_IsVariant: 0
