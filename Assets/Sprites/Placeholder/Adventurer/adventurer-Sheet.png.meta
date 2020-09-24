@@ -1154,6 +1154,99 @@ TextureImporter:
   - first:
       213: -595065476256501324
     second: adventurer-climb_ledge_8
+  - first:
+      213: -6272324960425573872
+    second: adventurer-attack1_0
+  - first:
+      213: 6791093285406862713
+    second: adventurer-attack1_1
+  - first:
+      213: -3178591482172456517
+    second: adventurer-attack1_2
+  - first:
+      213: 5820901206749387512
+    second: adventurer-attack1_3
+  - first:
+      213: -4213380119315594076
+    second: adventurer-attack1_4
+  - first:
+      213: 2263690325199944577
+    second: adventurer-attack1_5
+  - first:
+      213: -4910054386295309169
+    second: adventurer-attack1_6
+  - first:
+      213: 5952947249886893171
+    second: adventurer-attack1_7
+  - first:
+      213: -661981461952498903
+    second: adventurer-attack1_8
+  - first:
+      213: -7049752532463902175
+    second: adventurer-attack1_9
+  - first:
+      213: 3824109378339945785
+    second: adventurer-attack1_10
+  - first:
+      213: -8733094264985485702
+    second: adventurer-attack2_0
+  - first:
+      213: -3027871221261417227
+    second: adventurer-attack2_1
+  - first:
+      213: -6100009109558601773
+    second: adventurer-attack2_2
+  - first:
+      213: 4859958132938247889
+    second: adventurer-attack2_3
+  - first:
+      213: -74527424185084347
+    second: adventurer-attack3_0
+  - first:
+      213: -7888678320686869124
+    second: adventurer-attack3_1
+  - first:
+      213: 3612640641360276893
+    second: adventurer-attack3_2
+  - first:
+      213: 909106600183667513
+    second: adventurer-attack3_3
+  - first:
+      213: 7425457269166961068
+    second: adventurer-attack3_4
+  - first:
+      213: -4872601256353577146
+    second: adventurer-attack3_5
+  - first:
+      213: -7058415946578512513
+    second: adventurer-block_0
+  - first:
+      213: 6109271107766052929
+    second: adventurer-block_1
+  - first:
+      213: 2385438122279157633
+    second: adventurer-block_2
+  - first:
+      213: 119250626995197195
+    second: adventurer-block_3
+  - first:
+      213: 7136159753002177087
+    second: adventurer-block_4
+  - first:
+      213: -1409241037813881550
+    second: adventurer-block_5
+  - first:
+      213: -7746847680369327621
+    second: adventurer-exhaust_0
+  - first:
+      213: -2569849671128815847
+    second: adventurer-exhaust_1
+  - first:
+      213: -5343894699726145262
+    second: adventurer-exhaust_2
+  - first:
+      213: -7742955767313526844
+    second: adventurer-exhaust_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -2039,7 +2132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_38
+      name: adventurer-attack1_0
       rect:
         serializedVersion: 2
         x: 150
@@ -2053,14 +2146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55a07da569279f9e0800000000000000
-      internalID: -1587111403576685995
+      spriteID: 01284024ea934f8a0800000000000000
+      internalID: -6272324960425573872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_39
+      name: adventurer-attack1_1
       rect:
         serializedVersion: 2
         x: 200
@@ -2074,14 +2167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1729e5d879a6195f0800000000000000
-      internalID: -751702463649770895
+      spriteID: 97d6731cc5fce3e50800000000000000
+      internalID: 6791093285406862713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_40
+      name: adventurer-attack1_2
       rect:
         serializedVersion: 2
         x: 250
@@ -2095,14 +2188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c655ec860c2d6ec0800000000000000
-      internalID: -3572150522789669182
+      spriteID: bb1470b43ef53e3d0800000000000000
+      internalID: -3178591482172456517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_41
+      name: adventurer-attack1_3
       rect:
         serializedVersion: 2
         x: 300
@@ -2116,14 +2209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af38dd430c3519660800000000000000
-      internalID: 7390780548477453306
+      spriteID: 8fa90fc9ecef7c050800000000000000
+      internalID: 5820901206749387512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_42
+      name: adventurer-attack1_4
       rect:
         serializedVersion: 2
         x: 0
@@ -2137,14 +2230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1635c8a96b399e390800000000000000
-      internalID: -7788531668074343583
+      spriteID: 4a4408cda111785c0800000000000000
+      internalID: -4213380119315594076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_43
+      name: adventurer-attack1_5
       rect:
         serializedVersion: 2
         x: 50
@@ -2158,14 +2251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86a05f601dd124120800000000000000
-      internalID: 2396510735316617832
+      spriteID: 18bf7037b5e3a6f10800000000000000
+      internalID: 2263690325199944577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_44
+      name: adventurer-attack1_6
       rect:
         serializedVersion: 2
         x: 100
@@ -2179,14 +2272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 693badb0f18067d00800000000000000
-      internalID: 969971699180811158
+      spriteID: f8cf40ddc8bfbdbb0800000000000000
+      internalID: -4910054386295309169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_45
+      name: adventurer-attack1_7
       rect:
         serializedVersion: 2
         x: 150
@@ -2200,14 +2293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8aaf590b960a0ee0800000000000000
-      internalID: -1294214679968634226
+      spriteID: 3749524dbfd1d9250800000000000000
+      internalID: 5952947249886893171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_46
+      name: adventurer-attack1_8
       rect:
         serializedVersion: 2
         x: 200
@@ -2221,14 +2314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc8b4044166feab60800000000000000
-      internalID: 7759410105619364045
+      spriteID: 9237d602e5b20d6f0800000000000000
+      internalID: -661981461952498903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_47
+      name: adventurer-attack1_9
       rect:
         serializedVersion: 2
         x: 250
@@ -2242,14 +2335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7daf34f7151c11340800000000000000
-      internalID: 4832856430916926167
+      spriteID: 12224144c6f3a2e90800000000000000
+      internalID: -7049752532463902175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_48
+      name: adventurer-attack1_10
       rect:
         serializedVersion: 2
         x: 300
@@ -2263,14 +2356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19dd845c046f8d850800000000000000
-      internalID: 6402137628355386769
+      spriteID: 93d3136f737f11530800000000000000
+      internalID: 3824109378339945785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_49
+      name: adventurer-attack2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2284,14 +2377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acddfce6225b32330800000000000000
-      internalID: 3684988079611829706
+      spriteID: a7ef9813901ddc680800000000000000
+      internalID: -8733094264985485702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_50
+      name: adventurer-attack2_1
       rect:
         serializedVersion: 2
         x: 50
@@ -2305,14 +2398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f5085ae61c8bfa70800000000000000
-      internalID: 8861830721830389235
+      spriteID: 5f4c517aa27daf5d0800000000000000
+      internalID: -3027871221261417227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_51
+      name: adventurer-attack2_2
       rect:
         serializedVersion: 2
         x: 100
@@ -2326,14 +2419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b36c7fc67b1a1510800000000000000
-      internalID: 1520558021292090289
+      spriteID: 3d7dc1ab80a685ba0800000000000000
+      internalID: -6100009109558601773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_52
+      name: adventurer-attack2_3
       rect:
         serializedVersion: 2
         x: 150
@@ -2347,14 +2440,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a820fc5b90d9419c0800000000000000
-      internalID: -3957365507521314166
+      spriteID: 1de0e093c2a027340800000000000000
+      internalID: 4859958132938247889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_53
+      name: adventurer-attack3_0
       rect:
         serializedVersion: 2
         x: 200
@@ -2368,14 +2461,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b8196682e7915d60800000000000000
-      internalID: 7877244222421145784
+      spriteID: 5465c6bd3b937fef0800000000000000
+      internalID: -74527424185084347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_54
+      name: adventurer-attack3_1
       rect:
         serializedVersion: 2
         x: 250
@@ -2389,14 +2482,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 921574f642727d180800000000000000
-      internalID: -9090754285384806103
+      spriteID: c7552240dd8c58290800000000000000
+      internalID: -7888678320686869124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_55
+      name: adventurer-attack3_2
       rect:
         serializedVersion: 2
         x: 300
@@ -2410,14 +2503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81989096e1eac3fc0800000000000000
-      internalID: -3513742163621345000
+      spriteID: d9d2b61d58da22230800000000000000
+      internalID: 3612640641360276893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_56
+      name: adventurer-attack3_3
       rect:
         serializedVersion: 2
         x: 0
@@ -2431,14 +2524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a01abb72ffa5d3610800000000000000
-      internalID: 1602537094343532810
+      spriteID: 93b19eed2abcd9c00800000000000000
+      internalID: 909106600183667513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_57
+      name: adventurer-attack3_4
       rect:
         serializedVersion: 2
         x: 50
@@ -2452,14 +2545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17b91cb8431fd7c70800000000000000
-      internalID: 8970591240777210737
+      spriteID: ca1f9876b068c0760800000000000000
+      internalID: 7425457269166961068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_58
+      name: adventurer-attack3_5
       rect:
         serializedVersion: 2
         x: 100
@@ -2473,14 +2566,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b9741d6fa24d6cd0800000000000000
-      internalID: -2563319291687175751
+      spriteID: 6474ce639fa016cb0800000000000000
+      internalID: -4872601256353577146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_59
+      name: adventurer-block_0
       rect:
         serializedVersion: 2
         x: 150
@@ -2494,14 +2587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d206eff9b110e6be0800000000000000
-      internalID: -1482246009198321619
+      spriteID: f753c3bf7187b0e90800000000000000
+      internalID: -7058415946578512513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_60
+      name: adventurer-block_1
       rect:
         serializedVersion: 2
         x: 200
@@ -2515,14 +2608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9edbf73010afa0320800000000000000
-      internalID: 2525105423355198953
+      spriteID: 148e3f644bd78c450800000000000000
+      internalID: 6109271107766052929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_61
+      name: adventurer-block_2
       rect:
         serializedVersion: 2
         x: 250
@@ -2536,14 +2629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ea42ccff8408c300800000000000000
-      internalID: 272472793923341029
+      spriteID: 18fbf186557ca1120800000000000000
+      internalID: 2385438122279157633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_62
+      name: adventurer-block_3
       rect:
         serializedVersion: 2
         x: 300
@@ -2557,14 +2650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e2d42eb50c14c260800000000000000
-      internalID: 7116844122142724833
+      spriteID: b059a4d30d9a7a100800000000000000
+      internalID: 119250626995197195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_63
+      name: adventurer-block_4
       rect:
         serializedVersion: 2
         x: 0
@@ -2578,14 +2671,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d3d2fea36c26f990800000000000000
-      internalID: -7352640534987222063
+      spriteID: f3252228c7bb80360800000000000000
+      internalID: 7136159753002177087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_64
+      name: adventurer-block_5
       rect:
         serializedVersion: 2
         x: 50
@@ -2599,14 +2692,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f963ea8db84fb310800000000000000
-      internalID: 1422935986188544498
+      spriteID: 235633a1ebe517ce0800000000000000
+      internalID: -1409241037813881550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_65
+      name: adventurer-exhaust_0
       rect:
         serializedVersion: 2
         x: 100
@@ -2620,14 +2713,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21f5e4efb387cdd60800000000000000
-      internalID: 7916334444075441938
+      spriteID: bf1078a441bad7490800000000000000
+      internalID: -7746847680369327621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_66
+      name: adventurer-exhaust_1
       rect:
         serializedVersion: 2
         x: 150
@@ -2641,14 +2734,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb3b7220cc1893160800000000000000
-      internalID: 7005773408560985019
+      spriteID: 917663af65f065cd0800000000000000
+      internalID: -2569849671128815847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_67
+      name: adventurer-exhaust_2
       rect:
         serializedVersion: 2
         x: 200
@@ -2662,14 +2755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6bddc1691c1a37f0800000000000000
-      internalID: -632161902351492241
+      spriteID: 219fab1751ca6d5b0800000000000000
+      internalID: -5343894699726145262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: adventurer-Sheet_68
+      name: adventurer-exhaust_3
       rect:
         serializedVersion: 2
         x: 250
@@ -2683,8 +2776,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51e521199d4903b50800000000000000
-      internalID: 6570915518496267797
+      spriteID: 4cf07b9e0ce7b8490800000000000000
+      internalID: -7742955767313526844
       vertices: []
       indices: 
       edges: []
