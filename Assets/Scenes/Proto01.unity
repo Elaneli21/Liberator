@@ -221,6 +221,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1616368185495364921, guid: d8fc89970d5ecce4e9e5ca1939d1dbdf, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1616368185495364924, guid: d8fc89970d5ecce4e9e5ca1939d1dbdf, type: 3}
       propertyPath: m_Name
       value: Player
