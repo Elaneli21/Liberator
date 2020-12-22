@@ -3,7 +3,7 @@
 // Saya tempted buat namain nya Player aja abisan buat sekarang lebih gampang bikin behaviour nya
 // disini aja, kalo ditaro di script laen kayak nya cuma nambah complexity padahal basic nya kita
 // juga belom.
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float speed = 3f;
 
@@ -12,14 +12,11 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private Vector2 moveInput = new Vector2();
-    private bool attack = false;
+    private bool inputAttack = false;
     private bool canMove = true;
 
-    // ini saya comment gara gara ada warning
-    //private float moveHor;
-    //private float moveVer;
-    //private float moveLimit = 0.7f;
-
+    private int currentAtkSeq = 1;
+    
     #region Animations
 
     // ini biar nama animation nya jadi lebih gampang(less error prone juga) nyari/ganti nama nya
@@ -30,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
         // duplicate kalo males
         public static readonly string Run = "Run";
         public static readonly string Idle = "Idle";
-        public static readonly string Attack = "Attack";
+        public static readonly string Attack = "Attack1";
 
         // Ini saya bikin class biar ga numpuk di class PlayerMovement nya, kalo saya gini in
         // nanti kan semua variable Run, Idle, Attack, etc jadi di dalem satu "container"
@@ -51,13 +48,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Saya pindahin ke function masing masing biar
-        // 1. Fungsionalitas nya mereka bedua emang distinct
-        // 2. Rapih aja
-        // 3. Kalo pengen di pindah pindah ke script laen etc, jadi lebih gampang
-
         HandleInput();
         HandleAnimation();
+
+        //Debug.Log(currentAtkSeq);
     }
 
     private void HandleInput()
@@ -69,26 +63,61 @@ public class PlayerMovement : MonoBehaviour
         moveInput = new Vector2(inputX, inputY);
 
         if (Input.GetMouseButtonDown(0))
-            attack = true;
+            inputAttack = true;
     }
 
     private void HandleAnimation()
     {
-        // Harus nya disini ada yang ngecek kita lagi attacking apa engga
-        // contoh nya kayak gini:
-        // if (attack)
-        // {
-        //     DoAttack(); atoga HandleAttack(); terserah, nama doang
-        //     attack = false;
-        // } ato semacem nya
-        //
-        // cuma saya belom kepikiran mau gimana handle nya aja
-        // pengen nyari asset(free) 4 directional susa ternyata
-        // 4 arah atas bawah kiri kanan, and ada slash/attack
-        // animation nya
+        AnimatorStateInfo currentState = animator.GetCurrentAnimatorStateInfo(0);
+        bool playingAttack = currentState.IsTag("Attack");
 
-        attack = false;
-        HandleMovementAnimation();
+        //Debug.Log(currentState);
+
+        if (!playingAttack && inputAttack)
+        {
+            Debug.Log("attacking");
+            canMove = false;
+            Attack();
+        }
+
+        if (playingAttack)
+        {
+            if (currentState.normalizedTime >= 1f)
+            {
+
+                if (inputAttack)
+                    Attack();
+                else
+                {
+                    Debug.Log("asfasdfsegsdgsd" + currentState);
+                    canMove = true;
+                    animator.Play(AnimationNames.Idle);
+                    currentAtkSeq = 1;
+                }
+            }
+        }
+
+        if (!playingAttack && canMove)
+        {
+            HandleMovementAnimation();
+        }
+    }
+
+    void Attack()
+    {
+        string attackAnim;
+
+        //combo system
+        if (currentAtkSeq > 3)
+        {
+            currentAtkSeq = 1;
+        }
+
+        attackAnim = "Attack" + currentAtkSeq;
+        currentAtkSeq++;
+
+        animator.Play(attackAnim);
+        inputAttack = false;
     }
 
     private void HandleMovementAnimation()
@@ -108,28 +137,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Ini ga saya pindah ke function sendiri 'cause ya, cuma 2 line, mo gimana?
-        // comment nya doang yang panjang nya minta ampun
-        // PS: akhirnya dipindah juga
-
-        // saya pake placeholder variable biar moveInput nya gausa diubah ubah,
-        // 'cause move input kan representasi player input nya, bukan velocity.
-        // PS: Karena udah saya pindahin ke method sendiri, dia bisa kita anggep jadi
-        //   semacem "placeholder variable"
-        
-        // Before:
-        // Vector2 velocity = put calculation here
-        
-        // ini maksud nya kan Vector2D itu arah, nah magnitude(sqrMagnitude sama aja cuma lebih performant aja)
-        // itu panjang vector/arah nya itu. ini kita ngecek aja kalo vector nya ini panjang nya lebih dari 0
-        // apa engga, kalo iya berarti player nya ada input
-        //if (moveInput.sqrMagnitude > 0f)
-        //{
-        //    moveHor *= moveLimit;
-        //    moveVer *= moveLimit;
-        //}
-        // ini kalo saya pikir pikir kayak nya gausa deh, emang mau buat apaan kode diatas ini yang saya comment?
-
         rigid.velocity = CalculateVelocity();
     }
 
@@ -139,7 +146,7 @@ public class PlayerMovement : MonoBehaviour
         // pake Rigidbody, jadi kita set velocity nya ke zero.
         // kalo mau lebih jelas nama method nya harus nya jadi CalculateRigibodyVelocity, cuma
         // ya kepanjangan, jadi saya potong aja nama nya
-        if (attack) return Vector2.zero;
+        if (!canMove) return Vector2.zero;
 
         // normalized maksud nya mastiin biar vector nya itu panjang nya selalu 1(kalo bukan 0),
         // jadi misal kalo dia input nya kanan atas(1, 1) ini kan panjang nya bukan 1, nanti pendekin
