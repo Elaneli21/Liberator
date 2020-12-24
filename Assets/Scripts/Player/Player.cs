@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         HandleInput();
-        HandleAnimation();
+        //HandleAnimation();
 
         //Debug.Log(currentAtkSeq);
     }
@@ -135,8 +135,24 @@ public class Player : MonoBehaviour
         else animator.Play(AnimationNames.Idle);
     }
 
+    private void OnAnimatorMove()
+    {
+        AnimatorStateInfo currentState = animator.GetCurrentAnimatorStateInfo(0);
+        bool playingAttack = currentState.IsTag("Attack");
+
+        if (playingAttack)
+        {
+            Vector2 deltaPosition = spriteRenderer.flipX ? -animator.deltaPosition : animator.deltaPosition;
+            rigid.MovePosition(rigid.position + deltaPosition);
+        }
+    }
+
     private void FixedUpdate()
     {
+        // ini ditaro sis kalo pengen pake root motion tapi mau ada animation juga
+        // intinya kalo pengen animasi + physics(Dynamic) itu handle animation nya di FixedUpdate
+        HandleAnimation();
+
         rigid.velocity = CalculateVelocity();
     }
 
